@@ -3,8 +3,9 @@ Code for fundamentals of data analysis module of HDip in Data Analytics at ATU
 Author: Shane Keenan 
 
 ***
-'''bash
+```bash
 import numpy as np 
-'''
+```
+
 
 ***
