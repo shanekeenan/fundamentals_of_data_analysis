@@ -22,7 +22,15 @@ additionally pictures of the iris flowers can be found in the img folder.
 
 ## running the code 
 
-steps
+Note all data (in both tasks and project) is linked using relative paths to the data folder in the repository. E.g. 
+``current_directory = os.getcwd()`` gets the current directory the jupyter notebook is saved and 
+``relative_path = "data\\iris.csv"`` defines the relative path from the notebook to the data file. which is then added to the current directory
+``file_path = os.path.join(current_directory, relative_path)``
+
+Therefore if the repository is cloned locally there should be no need to change file names to run the notebook.
+
+steps to create:  
+
 1. Install Anaconda 
 2. Install visual studio code 
 3. create a github account 
@@ -33,21 +41,25 @@ steps
 8. Commit all and push to repo 
 
 
-## Issues 
+## required python packages
+
+for project 
+
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+import random 
+from PIL import Image
+import os
 
 
+for tasks 
 
-
-
-
-
-
-
-
-
-```bash
 import numpy as np 
-```
-
-
-***
+import pandas as pd 
+import matplotlib.pyplot as plt 
+import seaborn as sns 
+import random 
+import os
+from scipy.stats import norm
